@@ -1,0 +1,16 @@
+{
+  "author": "ritch (http://nhive.tumblr.com)",
+  "name": "paths",
+  "description": "Simple $PATH management for OSX in nodejs",
+  "version": "0.1.0",
+  "homepage": "http://nhive.tumblr.com",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
