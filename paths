@@ -1,12 +1,12 @@
-var child_process = require('child_process');
-var exec = child_process.exec;
-var fs = require('fs');
-var path = require('path');
+#!/usr/bin/env node
 
-var addIndex = process.argv.indexOf('add');
-var profile = process.env.HOME + '/.profile';
-var pathsStart = '#[paths]\nexport PATH=';
-var pathsEnd = ':$PATH\n#[/paths]';
+var exec = require('child_process').exec,
+	fs = require('fs'),
+	path = require('path'),
+	addIndex = process.argv.indexOf('add'),
+	profile = process.env.HOME + '/.profile',
+	pathsStart = '#[paths]\nexport PATH=',
+	pathsEnd = ':$PATH\n#[/paths]';
 
 if(addIndex > -1) {
 	
