@@ -1,9 +1,8 @@
 {
-	"author": "ritch (http://nhive.tumblr.com)",
+	"author": "Ritchie Martori",
 	"name": "paths",
 	"description": "Simple $PATH management for OSX in nodejs",
 	"version": "0.1.0",
-	"homepage": "http://nhive.tumblr.com",
 	"repository": {
 		"url": "https://ritch@github.com/ritch/paths.git"
 	},
